@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Css Element</title>
+	<style>
+		input:checked { height: 50px; width: 50px; }
+	</style>
+</head>
+<body>
+	
+	<form action="">
+		<input type="radio" checked="checked" value="male" name="gender"> Male<br>
+		<input type="radio" value="female" name="gender"> Female<br>
+		<input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+		<input type="checkbox" value="Car"> I have a car 
+	</form>
+
+
+</body>
+</html>

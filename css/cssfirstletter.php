@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Css Element</title>
+	<style>
+		p::first-letter { font-size: 200%; color: #8A2BE2; }
+	</style>
+</head>
+<body>
+	
+	<h1>Welcome to My Homepage</h1>
+
+	<p>My name is Donald.</p>
+	<p>I live in Duckburg.</p>
+	<p>My best friend is Mickey.</p>
+
+	<p><b>Note:</b> For this selector to work in IE 5.5-8, you must specify the old, single-colon CSS2 syntax (:first-letter instead of ::first-letter).</p>
+
+</body>
+</html>

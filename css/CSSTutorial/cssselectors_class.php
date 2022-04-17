@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.center {
+			text-align: center;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<h1 class="center">Red and center-aligned heading</h1>
+	<p class="center">Red and center-aligned paragraph.</p> 
+	
+</body>
+</html>
+

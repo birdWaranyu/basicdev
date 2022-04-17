@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(document).ajaxStart(function(){
+				$(this).html("<img src='demo_wait.gif'>");
+			});
+			$("button").click(function(){
+				$("div").load("demo_ajax_load.asp");
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<div><h2>Let AJAX change this text</h2></div>
+
+	<button>Change Content</button>
+	
+</body>
+</html>
+

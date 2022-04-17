@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		span {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<span>A display property with a value of "block" results in</span> <span>a line break between the two elements.</span>
+	
+</body>
+</html>
+
+

@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		h1.hidden {
+			visibility: hidden;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>This is a visible heading</h1>
+	<h1 class="hidden">This is a hidden heading</h1>
+	<p>Notice that the hidden heading still takes up space.</p>
+	
+</body>
+</html>
+
